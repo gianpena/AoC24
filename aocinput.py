@@ -12,7 +12,7 @@ class AOCInput:
 
     def lines(self):
         if not self.actual:
-            with open('../input', 'r') as f:
+            with open('./input', 'r') as f:
                 for line in f:
                     yield line.strip()
         else:
